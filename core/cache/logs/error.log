@@ -1,0 +1,43 @@
+[2016-12-20 00:56:28] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/xpdo/om/xpdoobject.class.php : 240) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC, modTransportPackage.release_index DESC LIMIT 20' at line 1
+)
+
+[2016-12-20 12:19:52] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/xpdo/om/xpdoobject.class.php : 240) Error 42000 executing statement: 
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC, modTransportPackage.release_index DESC LIMIT 20' at line 1
+)
+
+[2016-12-21 11:30:28] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/model/modx/modcachemanager.class.php : 394) Error caching action map mgr/actions
+[2016-12-21 12:40:18] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/components/migx/model/migx/migx.class.php : 1532) PHP warning: Invalid argument supplied for foreach()
+[2016-12-21 12:40:47] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/components/migx/model/migx/migx.class.php : 1532) PHP warning: Invalid argument supplied for foreach()
+[2016-12-21 12:40:58] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/components/migx/model/migx/migx.class.php : 1532) PHP warning: Invalid argument supplied for foreach()
+[2016-12-21 12:44:12] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/components/migx/model/migx/migx.class.php : 1532) PHP warning: Invalid argument supplied for foreach()
+[2016-12-21 17:02:40] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/model/modx/modcachemanager.class.php : 320) Could not retrieve data to cache for resource 2
+[2016-12-25 15:40:03] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/model/phpthumb/modphpthumb.class.php : 121) phpThumb was unable to generate a thumbnail for: /Users/admin/webdev/MAMP/modx/teamkeane/core/cache/phpthumb/localhost__src60438490e9344c3157c1ce8d788ff21c_par0ba78bb0326502335f8683fdf331013a_dat0.jpeg
+[2016-12-25 15:40:03] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/model/phpthumb/modphpthumb.class.php : 133) Error outputting thumbnail:
+OutputThumbnail() failed because !is_resource($this->gdimg_output) in file "phpthumb.class.php" on line 618
+[2016-12-28 12:23:44] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/cache/includes/elements/modplugin/4.include.cache.php : 16) PHP warning: include_once(plugins/phx/phx.parser.class.inc.php): failed to open stream: No such file or directory
+[2016-12-28 12:23:44] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/cache/includes/elements/modplugin/4.include.cache.php : 16) PHP warning: include_once(): Failed opening 'plugins/phx/phx.parser.class.inc.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.0.12/lib/php')
+[2016-12-28 12:24:46] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/cache/includes/elements/modplugin/4.include.cache.php : 16) PHP warning: include_once(plugins/phx/phx.parser.class.inc.php): failed to open stream: No such file or directory
+[2016-12-28 12:24:46] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/cache/includes/elements/modplugin/4.include.cache.php : 16) PHP warning: include_once(): Failed opening 'plugins/phx/phx.parser.class.inc.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.0.12/lib/php')
+[2016-12-28 12:26:02] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/cache/includes/elements/modplugin/4.include.cache.php : 16) PHP warning: include_once(plugins/phx/phx.parser.class.inc.php): failed to open stream: No such file or directory
+[2016-12-28 12:26:02] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/cache/includes/elements/modplugin/4.include.cache.php : 16) PHP warning: include_once(): Failed opening 'plugins/phx/phx.parser.class.inc.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.0.12/lib/php')
+[2016-12-28 12:26:18] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/cache/includes/elements/modplugin/4.include.cache.php : 16) PHP warning: include_once(plugins/phx/phx.parser.class.inc.php): failed to open stream: No such file or directory
+[2016-12-28 12:26:18] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/cache/includes/elements/modplugin/4.include.cache.php : 16) PHP warning: include_once(): Failed opening 'plugins/phx/phx.parser.class.inc.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.0.12/lib/php')
+[2016-12-28 12:28:21] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/cache/includes/elements/modplugin/4.include.cache.php : 16) PHP warning: include_once(plugins/phx/phx.parser.class.inc.php): failed to open stream: No such file or directory
+[2016-12-28 12:28:21] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/cache/includes/elements/modplugin/4.include.cache.php : 16) PHP warning: include_once(): Failed opening 'plugins/phx/phx.parser.class.inc.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.0.12/lib/php')
+[2016-12-28 12:28:33] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/cache/includes/elements/modplugin/4.include.cache.php : 16) PHP warning: include_once(plugins/phx/phx.parser.class.inc.php): failed to open stream: No such file or directory
+[2016-12-28 12:28:33] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/cache/includes/elements/modplugin/4.include.cache.php : 16) PHP warning: include_once(): Failed opening 'plugins/phx/phx.parser.class.inc.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.0.12/lib/php')
+[2016-12-28 12:28:36] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/cache/includes/elements/modplugin/4.include.cache.php : 16) PHP warning: include_once(plugins/phx/phx.parser.class.inc.php): failed to open stream: No such file or directory
+[2016-12-28 12:28:36] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/cache/includes/elements/modplugin/4.include.cache.php : 16) PHP warning: include_once(): Failed opening 'plugins/phx/phx.parser.class.inc.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.0.12/lib/php')
+[2016-12-28 12:29:15] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/model/modx/modcachemanager.class.php : 394) Error caching action map mgr/actions
+[2016-12-28 12:56:52] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/en/core/default
+[2016-12-28 12:56:52] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/model/modx/modcachemanager.class.php : 394) Error caching action map mgr/actions
+[2016-12-28 12:56:52] (ERROR @ /Users/admin/webdev/MAMP/modx/teamkeane/core/model/modx/modcachemanager.class.php : 344) Error caching lexicon topic lexicon/en/core/element

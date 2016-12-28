@@ -1,0 +1,171 @@
+/* ============ Hero Image ============= */
+
+.hero-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../assets/web/kidsregatta/DSC_8129.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.title {
+  margin-top: 15vh;
+}
+
+.title h1 {
+  font-family: 'Quattrocento', serif;
+  font-size: 110px;
+  letter-spacing: 6px;
+}
+
+.title h2 {
+  font-family: 'Fanwood Text', serif;
+  font-size: 25px;
+  text-align: right;
+  padding-right: 9px;
+}
+
+.title img {
+  height: 150px;
+  padding-right: 6px;
+  margin-bottom: -4px;
+}
+
+.title img .st0 {
+  fill: white;
+}
+
+.down-chevron {
+  width: 50px;
+  margin-bottom: 10vh;
+}
+
+/*===================== Sub-Header =====================*/
+
+.sub-header-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fdf9ff;
+  justify-content: space-around;
+  width: 100vw;
+  height: 350px;
+}
+
+h3 {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 40px;
+  letter-spacing: 5px;
+  line-height: 150%;
+  text-align: center;
+  padding: 0 10vw;
+}
+
+.divider-image img {
+  display: block;
+  margin: 30px auto 0 auto;
+}
+
+/* =============== Navigation Images ===============*/
+
+.navigation-images-wrapper {
+  padding: 60px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-image {
+  position: relative;
+  flex-basis: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.nav-image img {
+  width: 100%;
+  transition: all 0.1s ease-out;
+}
+
+.nav-image img:hover, .nav-image img:focus {
+  transform: scale(1.05);
+  filter: blur(1px) grayscale(70%);
+}
+
+.nav-description-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  pointer-events: none;
+  background-color: rgba(108,0,150,0.25);
+  transform: translateY(30px);
+  opacity: 0;
+  transition: all 0.15s ease-out;
+}
+
+.nav-image:hover .nav-description-wrapper, .nav-image:focus .nav-description-wrapper {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.nav-description {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 25px;
+  color: rgba(255,255,255,1);
+}
+
+/* ================ Image / Text Content =================*/
+
+.image-text-content-wrapper {
+  display: flex;
+  width: 100vw;
+  height: 400px;
+  overflow: hidden;
+}
+
+.image-text-content-wrapper:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.image-text-content-text-wrapper {
+  width: 50vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-text-content-wrapper a {
+  text-decoration: none;
+}
+
+.image-text-content-text-wrapper p {
+  font-family: 'Fanwood Text', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  padding: 50px;
+}
+
+.image-text-content-image-wrapper {
+  position: relative;
+  width: 50vw;
+}
+
+.image-text-content-image-wrapper img {
+  bottom: 0;
+  position: absolute;
+  width: 50vw;
+  vertical-align: bottom;
+}

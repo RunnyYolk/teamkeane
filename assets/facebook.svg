@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="90.75" height="90.5" viewBox="0 0 90.75 90.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fde67b;
+        filter: url(#inner-shadow-1);
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #35363a;
+      }
+    </style>
+
+    <filter id="inner-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="innerShadowBlur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.1"/>
+      <feComposite operator="out" in2="innerShadowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend in2="SourceGraphic" result="innerShadow"/>
+    </filter>
+  </defs>
+  <g>
+    <path d="M45.502,0.001 C81.077,0.001 90.751,9.391 90.751,45.756 C90.751,81.331 80.824,90.500 45.249,90.500 C8.884,90.500 0.000,81.078 0.000,45.504 C0.000,9.139 9.137,0.001 45.502,0.001 Z" class="cls-1"/>
+    <path d="M39.979,50.260 L39.979,66.250 L48.002,66.312 L47.971,50.213 L52.926,50.182 L54.310,43.240 L47.966,43.240 L47.966,38.116 C47.966,37.425 48.240,36.190 49.359,36.190 L53.055,36.253 L52.930,29.311 L45.616,29.280 C43.113,29.280 39.983,32.486 39.983,35.762 L39.921,43.203 L35.009,43.297 L35.009,50.231 L39.979,50.260 Z" class="cls-2"/>
+  </g>
+</svg>
